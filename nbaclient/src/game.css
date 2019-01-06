@@ -1,0 +1,149 @@
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.date-picker{
+  margin: 0 auto;
+}
+.future-game-summary-tile{
+  font-size: 12px;
+  margin: 0 auto;
+  background-color: #dae0e5;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-bottom: 2%;
+  padding-bottom: 4%;
+  position: relative;
+  width: 100%;
+}
+.game-summary-tile{
+  font-size: 12px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+  position: relative;
+}
+.team-info-tile-future{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.team-info-tile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+  text-align: left;
+}
+.team-logo{
+  display: flex;
+  align-content: center;
+}
+.team-info-tile-future .team-logo{
+  float: left;
+  display: block;
+}
+.team-logo p{
+  margin-top: 15%;
+}
+.team-info-tile table{
+  text-align: center;
+  margin-top: 5%;
+}
+.team-info-tile img, .team-info-tile-future img{
+  height: 50px;
+  width: 50px;
+}
+.image-cell{
+  width: 30%;
+}
+.quarter-scoring-tile{
+  width: 20%;
+  text-align: left;
+}
+.quarter-scoring-tile th, .quarter-scoring-tile td{
+  text-align: center;
+  padding-right: 0.5em !important;
+  padding-left: 0.5em !important;
+}
+.general-stats-tile th, .general-stats-tile td{
+  text-align: center;
+  padding-right: 0.2em !important;
+  padding-left: 0.2em !important;
+}
+.general-stats-tile{
+  width: 25%;
+}
+.top-performer-tile{
+  width: 40%;
+}
+.top-performer-tile tbody th, .top-performer-tile tbody td{
+  padding-top: 0.4em !important;
+  padding-bottom: 0.4em !important;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.game-line-score p{
+  display: inline;
+}
+.game-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #95a5a6;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 1%;
+  text-align: center;
+  border-radius: 20px;
+}
+.game-header img{
+  align-self: center;
+  height: 100px;
+  width: 100px;
+}
+.game-header .table{
+  margin-bottom: 0rem;
+}
+.game-stats-tile{
+  color: #2d3436;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.game-stats-tile table{
+  font-size: 12px;
+  margin: 0 auto;
+}
+.game-stats-tile p{
+  text-align: left;
+}
+.logo-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.last-meeting p{
+  margin: 0 auto;
+  font-size: 10px;
+  text-align: center;
+}
+.links-tile p{
+  display: inline-block;
+}
+.links-tile{
+  position: absolute;
+  bottom: -4%;
+  text-align: center;
+  margin: 0 auto;
+  align-self: center;
+}
+.col-md-4{
+  display: flex;
+}

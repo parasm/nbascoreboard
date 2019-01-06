@@ -1,0 +1,6 @@
+Team stats tab
+tells you team's overall rank in things like DEF RTG, OF RTG, FT% (rank in the league)
+standing in the league?
+ 
+Show how much over their average they are playing?
+play by play live
